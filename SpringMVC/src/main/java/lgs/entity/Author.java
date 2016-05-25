@@ -11,6 +11,7 @@ import javax.persistence.ManyToMany;
 
 @Entity
 public class Author {
+	// masha
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
